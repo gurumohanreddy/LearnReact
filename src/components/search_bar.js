@@ -4,11 +4,12 @@ import React,{Component} from 'react';
 class SearchBar extends Component {
   constructor(props){
     super(props);
+    // console.log(this);
     this.state={term:''};
   }
 
   render(){
-    // console.log(this);
+    // console.log( this);
     return (
       <div>
       <input
